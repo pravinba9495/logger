@@ -19,7 +19,7 @@ func main() {
     logger.SetLogLevel("TRACE")
 
     lvl := logger.GetLogLevel()
-    log.Println(lvl)                                 // Output: 0      
+    log.Println("Log level: " + lvl)     
 
     logger.Trace("This is just a trace");            // Prints on stdout with a cyan colored text
     logger.Print("This is just a simple log");       // Prints on stdout with a white colored text
@@ -28,6 +28,17 @@ func main() {
     logger.Error("This is just an error log");       // Prints on stdout with a red colored text
 }
 ```
+### Output
+
+<div style="background-color: black; padding: 5px; border-radius: 5px;">
+Log level: 0
+<div style="color: cyan;">This is just a trace</div>
+<div style="color: white;">This is just a simple log</div>
+<div style="color: yellow;">This is just a warning log</div>
+<div style="color: green;">This is just a success log</div>
+<div style="color: red;">This is just an error log</div>
+</div>
+<br/>
 
 ## License
 MIT
