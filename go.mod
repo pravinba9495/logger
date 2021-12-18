@@ -1,4 +1,4 @@
-module github.com/pravinba9495/logger
+module github.com/aheeva/logger
 
 go 1.17
 

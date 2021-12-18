@@ -1,5 +1,5 @@
 # logger
-[![Go Reference](https://pkg.go.dev/badge/github.com/pravinba9495/logger.svg)](https://pkg.go.dev/github.com/pravinba9495/logger) ![Go Report Card](https://goreportcard.com/badge/github.com/pravinba9495/logger)
+[![Go Reference](https://pkg.go.dev/badge/github.com/aheeva/logger.svg)](https://pkg.go.dev/github.com/aheeva/logger) ![Go Report Card](https://goreportcard.com/badge/github.com/aheeva/logger)
 
 A reusable logger module for basic logging, written in Go.
 
@@ -11,7 +11,7 @@ package main
 import (
     "log"
 
-    "github.com/pravinba9495/logger"
+    "github.com/aheeva/logger"
 )
 
 func main() {
