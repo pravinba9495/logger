@@ -30,15 +30,7 @@ func main() {
 ```
 ### Output
 
-<div style="background-color: black; padding: 5px; border-radius: 5px;">
-Log level: 0
-<div style="color: cyan;">This is just a trace</div>
-<div style="color: white;">This is just a simple log</div>
-<div style="color: yellow;">This is just a warning log</div>
-<div style="color: green;">This is just a success log</div>
-<div style="color: red;">This is just an error log</div>
-</div>
-<br/>
+![sample.png](https://raw.githubusercontent.com/pravinba9495/logger/master/assets/sample.png)
 
 ## License
 MIT
