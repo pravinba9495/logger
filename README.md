@@ -9,17 +9,12 @@ A reusable logger module for basic logging, written in Go.
 package main
 
 import (
-    "log"
-
     "github.com/aheeva/logger"
 )
 
 func main() {
     // Setup logger with a log level
-    logger.SetLogLevel("TRACE")
-
-    lvl := logger.GetLogLevel()
-    log.Println("Log level: " + lvl)     
+    logger.SetLogLevel("TRACE")   
 
     logger.Trace("This is just a trace");            // Prints on stdout with a cyan colored text
     logger.Print("This is just a simple log");       // Prints on stdout with a white colored text
