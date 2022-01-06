@@ -12,7 +12,7 @@ import (
 
 var (
 	currentLogLevel LogLevel = LevelError
-	logFilePath     string   = "router.log"
+	logFilePath     string   = "logfile.txt"
 )
 
 // Initialize logger
