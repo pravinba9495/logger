@@ -15,7 +15,7 @@ var (
 	logFilePath     string   = "logfile.txt"
 )
 
-// Initialize logger
+// Init initializes a logger
 func Init(opts *LoggerOptions) (func(), error) {
 	if opts != nil {
 		if opts.LogLevel != "" {
@@ -72,7 +72,7 @@ func Print(s string) {
 	log.Print("[" + filename + ":" + fmt.Sprint(line) + "] " + str)
 }
 
-// SUCCESS prints logs of type "SUCCESS"
+// Success prints logs of type "SUCCESS"
 func Success(s string) {
 	_, filename, line, _ := runtime.Caller(1)
 	str := color.GreenString("%s", s)
