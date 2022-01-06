@@ -14,7 +14,7 @@ import (
 
 func main() {
     // Initialize logger
-    opts = &logger.LoggerOptions{
+    opts := &logger.LoggerOptions{
 		LogLevel:    logger.LevelTrace,
 		LogFilePath: "logfile.txt",
 	}
