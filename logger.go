@@ -72,7 +72,7 @@ func Print(s string) {
 	log.Print("[" + filename + ":" + fmt.Sprint(line) + "] " + str)
 }
 
-// Print prints logs of type "SUCCESS"
+// SUCCESS prints logs of type "SUCCESS"
 func Success(s string) {
 	_, filename, line, _ := runtime.Caller(1)
 	str := color.GreenString("%s", s)
