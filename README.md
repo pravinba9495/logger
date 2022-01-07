@@ -15,9 +15,9 @@ import (
 func main() {
     // Initialize logger
     opts := &logger.LoggerOptions{
-		LogLevel:    logger.LevelTrace,
-		LogFilePath: "logfile.txt",
-	}
+	LogLevel:    logger.LevelTrace,
+	LogFilePath: "logfile.txt",
+    }
     close, err := logger.Init(opts)
     if err != nil {
         panic(err)
