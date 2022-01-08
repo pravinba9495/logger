@@ -1,9 +1,16 @@
 # logger
-[![Go Reference](https://pkg.go.dev/badge/github.com/pravinba9495/logger.svg)](https://pkg.go.dev/github.com/pravinba9495/logger) ![Go Report Card](https://goreportcard.com/badge/github.com/pravinba9495/logger)
+[![Go Reference](https://pkg.go.dev/badge/github.com/pravinba9495/logger.svg)](https://pkg.go.dev/github.com/pravinba9495/logger) ![Go Report Card](https://goreportcard.com/badge/github.com/pravinba9495/logger) ![Issues](https://img.shields.io/github/issues-raw/pravinba9495/logger) ![License](https://img.shields.io/github/license/pravinba9495/logger) ![Release](https://img.shields.io/github/v/release/pravinba9495/logger?include_prereleases)
 
 A minimalisitic logger module for basic logging, written in Go.
 
-## Usage
+## Table of Contents
+- [Example](#example)
+- [Documentation](#documentation)
+- [Development](#development)
+- [Maintainers](#maintainers)
+- [License](#license)
+
+## Example
 ### Client
 ```go
 package main
@@ -32,5 +39,13 @@ func main() {
 }
 ```
 
+## Documentation
+Logger documentation is hosted at [Read the docs](https://pkg.go.dev/github.com/pravinba9495/logger).
+
+## Development
+Logger is still under development. Contributions are always welcome!
+
+## Maintainers
+* [@pravinba9495](https://github.com/pravinba9495)
 ## License
 MIT
