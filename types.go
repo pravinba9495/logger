@@ -5,6 +5,7 @@ type LogLevel string
 
 // LoggerOptions to pass to the logger instance
 type LoggerOptions struct {
-	LogLevel    LogLevel
-	LogFilePath string
+	LogLevel       LogLevel
+	LogFilePath    string
+	LogFileMaxSize int64
 }
